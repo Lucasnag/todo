@@ -1,0 +1,61 @@
+.body {
+    margin-top: 20px;
+}
+
+.note {
+    margin: 10px;
+    padding: 8px;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.delete {
+    float: right;
+    margin-top: -3px;
+    margin-right: -2px;
+}
+
+.update {
+    float: right;
+    margin-top: -3px;
+    margin-right: 4px;
+}
+
+.colors {
+    margin-top: 15px;
+}
+
+.color {
+    display: inline-block;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin: 1px;
+}
+
+.red {
+    background-color: rgb(250, 215, 210);
+}
+
+.orange {
+    background-color: rgb(243, 223, 186);
+}
+
+.yellow {
+    background-color: rgb(248, 251, 213);
+}
+
+.green {
+    background-color: rgb(211, 236, 205);
+}
+
+.blue {
+    background-color: rgb(202, 218, 236);
+}
+
+.selected {
+    border: 1px solid black;
+}
+
+.note-text {
+    padding: 0px!important;
+}
